@@ -1,0 +1,8 @@
+{
+  "name": "vps",
+  "json_class": "Chef::Role",
+  "run_list": [ 
+    "role[base]",
+    "role[webserver]"
+  ]
+}
